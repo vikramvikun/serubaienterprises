@@ -22,7 +22,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'd_fmbv#@z@8=bf3u+=g=2mt1l9cs!p=^27y06!+tlf4*5^j)st'
+SECRET_KEY = 
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -129,6 +129,7 @@ STATIC_ROOT=os.path.join(BASE_DIR,'assets')
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR,'media')
+# 'd_fmbv#@z@8=bf3u+=g=2mt1l9cs!p=^27y06!+tlf4*5^j)st'
 
 # Activate Django-Heroku.
 django_heroku.settings(locals())
